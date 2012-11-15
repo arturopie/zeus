@@ -12,7 +12,7 @@ version = begin
 files = File.exist?('MANIFEST') ? File.read("MANIFEST").lines.map(&:chomp) : []
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Burke Libbey"]
+  gem.authors       = ["Burke Libbey", "Arturo Pie"]
   gem.email         = ["burke@libbey.me"]
   gem.description   = %q{Boot any rails app in under a second}
   gem.summary       = %q{Zeus is an intelligent preloader for ruby applications. It allows normal development tasks to be run in a fraction of a second.}
@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
 
   gem.files         = files
   gem.extensions    = ["ext/inotify-wrapper/extconf.rb"]
-  gem.executables   = ['zeus']
+  gem.executables   = ['zeus-edge']
   gem.test_files    = []
   gem.name          = "zeus"
   gem.require_paths = ["lib"]
