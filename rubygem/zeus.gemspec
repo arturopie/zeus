@@ -22,7 +22,7 @@ Gem::Specification.new do |gem|
   gem.extensions    = ["ext/inotify-wrapper/extconf.rb"]
   gem.executables   = ['zeus']
   gem.test_files    = []
-  gem.name          = "zeus"
+  gem.name          = "zeus-edge"
   gem.require_paths = ["lib"]
   gem.version       = version
   gem.license       = "MIT"
