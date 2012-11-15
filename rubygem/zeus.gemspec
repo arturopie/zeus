@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
 
   gem.files         = files
   gem.extensions    = ["ext/inotify-wrapper/extconf.rb"]
-  gem.executables   = ['zeus-edge']
+  gem.executables   = ['zeus']
   gem.test_files    = []
   gem.name          = "zeus"
   gem.require_paths = ["lib"]
